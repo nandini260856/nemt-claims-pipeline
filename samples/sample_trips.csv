@@ -1,0 +1,6 @@
+trip_id,member_id,provider_id,service_date,pickup_time,origin_type,destination_type,level_of_service,vehicle_type,loaded_miles,gps_miles,diagnosis_code,trip_status,documentation_completed_date,source_system
+T00003098,M0000705,TP036,2026-05-16,14:45,J,R,sedan,sedan,5.0,4.9,Z99.2,completed,2026-05-24,driver_app
+T00008104,M0002460,TP037,2026-04-21,08:45,R,J,sedan,sedan,8.4,8.8,Z99.2,completed,2026-05-02,driver_app
+T00027958,M0000673,TP006,2026-08-04,08:45,R,J,sedan,sedan,6.3,6.1,N18.6,completed,2026-08-14,driver_app
+T00029232,M0002415,TP024,2026-06-28,09:45,P,R,sedan,sedan,11.4,11.8,E11.9,CANCELLED,2026-07-08,driver_app
+T00007086,M0000042,TP026,2026-04-12,07:15,R,J,ambulance,ambulance,24.8,26.2,N18.6,completed,2026-04-24,driver_app

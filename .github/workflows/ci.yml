@@ -1,0 +1,19 @@
+name: pipeline
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  run-and-test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r requirements.txt
+      - name: Run the pipeline end to end
+        run: python -m nemt_claims.run_pipeline
+      - name: Run tests
+        run: python -m pytest -q
